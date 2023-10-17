@@ -1,11 +1,11 @@
 /* Import Google font */
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Press Start 2P', sans-serif;
 }
 
 body {
@@ -13,7 +13,7 @@ body {
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  background: #E3F2FD;
+  background: #222;
 }
 
 .wrapper {
@@ -24,7 +24,7 @@ body {
   flex-direction: column;
   justify-content: center;
   border-radius: 5px;
-  background: #293447;
+  background: #111;
   box-shadow: 0 20px 40px rgba(52, 87, 220, 0.2);
 }
 
@@ -50,6 +50,11 @@ body {
 }
 
 .play-board .head {
+  background: #60CBFF;
+  animation: move 0.2s linear infinite;
+}
+
+.play-board .body {
   background: #60CBFF;
 }
 
